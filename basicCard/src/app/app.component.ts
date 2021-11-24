@@ -3,8 +3,33 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'basicCard';
+  posts = [
+    {
+      title: 'Neat Tree',
+      imageUrl: 'assets/tree.jpeg',
+      username: 'nature',
+      content: 'I saw this neat tree today!',
+    },
+    {
+      title: 'Snowy Moutain',
+      imageUrl: 'assets/mountain.jpeg',
+      username: 'mountain lover',
+      content: 'Picture of a snowy mountain!',
+    },
+    {
+      title: 'Mountain Biking',
+      imageUrl: 'assets/biking.jpeg',
+      username: 'biking 431',
+      content: 'Wonderful long biking today!',
+    },
+    {
+      title: 'Mountain Biking',
+      imageUrl: 'assets/biking.jpeg',
+      username: 'biking 431',
+      content: 'Wonderful long biking today!',
+    },
+  ];
 }
